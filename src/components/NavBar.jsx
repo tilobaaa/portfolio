@@ -34,24 +34,24 @@ const NavBar = () => {
               onClick={() => {
                 setShowMenu(false);
               }}
-              className="text-5xl cursor-pointer transition-all duration-500 hover:scale-125 text-red-500"
+              className="text-3xl sm:text-5xl cursor-pointer transition-all duration-500 hover:scale-125 text-red-500"
             />
           ) : (
             <BiMenuAltLeft
               onClick={() => {
                 setShowMenu(true);
               }}
-              className="text-5xl cursor-pointer transition-all duration-500 hover:scale-125"
+              className="text-3xl sm:text-5xl cursor-pointer transition-all duration-500 hover:scale-125"
             />
           )}
         </div>
         {/* middle */}
-        <p className="font-bold text-lg">ADEDOLAPO YAKUB</p>
+        <p className="font-bold text-sm sm:text-lg">ADEDOLAPO YAKUB</p>
 
         {/* right */}
         <div>
-          <button className="border px-2 py-1 text-sm rounded-2xl flex items-center gap-2 cursor-pointer transition-all hover:scale-105 duration-500">
-            <p>HIT ME UP</p>
+          <button className="sm:border px-2 py-1 text-sm rounded-2xl flex items-center gap-2 cursor-pointer transition-all hover:scale-105 duration-500">
+            <p className="hidden sm:inline">HIT ME UP</p>
             <FaExternalLinkAlt />
           </button>
         </div>

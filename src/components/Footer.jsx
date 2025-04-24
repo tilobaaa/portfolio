@@ -4,17 +4,17 @@ import { socials } from "../assets/socials";
 
 const Footer = () => {
   return (
-    <div>
-      <div className="flex items-center gap-3">
+    <div className="lg:w-fit lg:m-auto">
+      <div className="flex items-center gap-3 lg:gap-20">
         <h2 className="text-6xl font-extrabold text-gray-700">LETS TALK</h2>
         <button className="border border-gray-500 flex gap-2 items-center py-2 px-4 mx-4 cursor-pointer hover:scale-105 transition-all duration-500 ">
           CONTACT <FaExternalLinkAlt />{" "}
         </button>
       </div>
       <hr className="my-12 text-gray-500" />
-      <div className="flex justify-between items-center flex-nowrap">
+      <div className="flex flex-col sm:flex-row justify-between items-center flex-nowrap">
         {/* left */}
-        <div className="flex-1 flex items-center justify-between">
+        <div className="flex-1 flex items-center justify-between gap-6">
           <p>Home</p>
           <p>About</p>
           <p>Contact</p>

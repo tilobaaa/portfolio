@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 body {
-  padding: 2rem;
+  padding: 1rem;
   
   font-family: "Inter", sans-serif !important;
   scrollbar-color: #cf5151 #1a1a1a !important;
@@ -21,3 +21,9 @@ body {
   background: rgb(34, 34, 34);
 }
 
+@media (min-width: 768px) {
+  body {
+    padding-left:5rem ;
+    padding-right: 5rem;
+  }
+}
